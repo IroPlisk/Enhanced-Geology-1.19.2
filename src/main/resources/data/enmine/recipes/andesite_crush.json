@@ -1,0 +1,29 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "value": [
+      {
+        "item": "minecraft:andesite"
+      }
+    ],
+    "count": 64
+  },
+  "result": [
+    {
+      "item": "enhancedgeology:feldspar",
+      "count": 47
+    },
+    {
+      "item": "chemlib:silicon_dioxide",
+      "count": 12
+    },
+    {
+      "item": "enhancedgeology:magnetite",
+      "count": 3
+    },
+    {
+      "item": "enhancedgeology:zircon"
+    }
+  ],
+  "experience": 0.1
+}

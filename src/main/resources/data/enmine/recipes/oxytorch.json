@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " c ",
+    " i ",
+    "aio"
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "a": {
+      "item": "enhancedgeology:acetylene"
+    },
+    "o": {
+      "item": "enhancedgeology:oxygencell"
+    }
+  },
+  "result": {
+    "item": "enhancedgeology:oxy"
+  }
+}

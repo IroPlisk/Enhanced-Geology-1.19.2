@@ -1,0 +1,30 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "value": [
+      {
+        "item": "enhancedgeology:diaspro_block"
+      }
+    ],
+    "count": 64
+  },
+  "result": [
+    {
+      "item": "chemlib:silicon_dioxide",
+      "count": 54
+    },
+    {
+      "item": "enhancedgeology:ematite",
+      "count": 5
+    },
+    {
+      "item": "chemlib:manganese_dust",
+      "count": 4
+    },
+    {
+      "item": "ic2:dust_gold",
+      "count": 1
+    }
+  ],
+  "experience": 0.1
+}

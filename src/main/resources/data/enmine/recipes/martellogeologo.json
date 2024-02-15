@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    " si",
+    " s "
+  ],
+  "key": {
+    "i": {
+      "item": "ic2:plate_iridium"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "enhancedgeology:martellogeologo"
+  }
+}

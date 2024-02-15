@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "csc",
+    "pvp",
+    "kcg"
+  ],
+  "key": {
+    "c": {
+      "item": "ic2:circuit"
+    },
+    "s": {
+      "item": "ic2:complex_circuit"
+    },
+    "p": {
+      "item": "minecraft:stone_button"
+    },
+    "v": {
+      "item": "minecraft:glass_pane"
+    },
+    "k": {
+      "item": "ic2:advanced_circuit"
+    },
+    "g": {
+      "item": "ic2:tin_cable_item"
+    }
+  },
+  "result": {
+    "item": "enhancedgeology:gravimetro"
+  }
+}

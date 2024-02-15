@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " t ",
+    "td ",
+    " t "
+  ],
+  "key": {
+    "t": {
+      "item": "chemlib:tungsten_ingot"
+    },
+    "d": {
+      "item": "ic2:diamond_drill"
+    }
+  },
+  "result": {
+    "item": "enhancedgeology:sds"
+  }
+}

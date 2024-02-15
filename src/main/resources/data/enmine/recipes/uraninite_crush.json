@@ -1,0 +1,25 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "value": [
+      {
+        "item": "enhancedgeology:uranite_block"
+      }
+    ],
+    "count": 5
+  },
+  "result": [
+    {
+      "item": "ic2:dust_tin",
+      "count": 2
+    },
+    {
+      "item": "thermal:lead_dust",
+      "count": 2
+    },
+    {
+      "item": "enhancedgeology:uo"
+    }
+  ],
+  "experience": 0.1
+}

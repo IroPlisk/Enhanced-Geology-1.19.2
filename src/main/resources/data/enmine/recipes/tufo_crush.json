@@ -1,0 +1,22 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "value": [
+      {
+        "item": "minecraft:tuff"
+      }
+    ],
+    "count": 64
+  },
+  "result": [
+    {
+      "item": "enhancedgeology:fluorite",
+      "count": 4
+    },
+    {
+      "item": "thermal:quartz_dust",
+      "count": 60
+    }
+  ],
+  "experience": 0.1
+}

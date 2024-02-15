@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "t t",
+    "ttt"
+  ],
+  "key": {
+    "t": {
+      "item": "ic2:ingot_refined_iron"
+    }
+  },
+  "result": {
+    "item": "enhancedgeology:bateia"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "value": [
+      {
+        "item": "enhancedgeology:gneiss_block"
+      }
+    ],
+    "count": 64
+  },
+  "result": [
+    {
+      "item": "enhancedgeology:feldspar",
+      "count": 26
+    },
+    {
+      "item": "chemlib:silicon_dioxide",
+      "count": 26
+    },
+    {
+      "item": "enhancedgeology:biotite",
+      "count": 6
+    },
+    {
+      "item": "enhancedgeology:orneblende",
+      "count": 6
+    }
+  ],
+  "experience": 0.1
+}

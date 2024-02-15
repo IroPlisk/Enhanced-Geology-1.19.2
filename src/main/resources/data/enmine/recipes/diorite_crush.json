@@ -1,0 +1,24 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "value": [
+      {
+        "item": "minecraft:diorite"
+      }
+    ],
+    "count": 64
+  },
+  "result": [
+    {
+      "item": "enhancedgeology:feldspar",
+      "count": 59
+    },
+    {
+      "item": "chemlib:titanium_dust"
+    },
+    {
+      "item": "enhancedgeology:magnetite"
+    }
+  ],
+  "experience": 0.1
+}

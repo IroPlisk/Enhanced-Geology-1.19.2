@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "csc",
+    "lvb",
+    "ktg"
+  ],
+  "key": {
+    "c": {
+      "item": "ic2:circuit"
+    },
+    "s": {
+      "item": "ic2:complex_circuit"
+    },
+    "l": {
+      "item": "minecraft:lever"
+    },
+    "v": {
+      "item": "minecraft:glass_pane"
+    },
+    "b": {
+      "item": "enhancedgeology:biotite"
+    },
+    "k": {
+      "item": "ic2:advanced_circuit"
+    },
+    "t": {
+      "item": "ic2:upgrade_transformer"
+    },
+    "g": {
+      "item": "ic2:tin_cable_item"
+    }
+  },
+  "result": {
+    "item": "enhancedgeology:geiger"
+  }
+}

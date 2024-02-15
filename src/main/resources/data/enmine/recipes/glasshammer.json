@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sis",
+    " i ",
+    " i "
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "s": {
+      "item": "ic2:ingot_refined_iron"
+    }
+  },
+  "result": {
+    "item": "enhancedgeology:frangivetro"
+  }
+}

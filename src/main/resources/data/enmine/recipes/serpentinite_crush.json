@@ -1,0 +1,30 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "value": [
+      {
+        "item": "enhancedgeology:serpentinite_block"
+      }
+    ],
+    "count": 64
+  },
+  "result": [
+    {
+      "item": "enhancedgeology:serpentine",
+      "count": 38
+    },
+    {
+      "item": "enhancedgeology:brucite",
+      "count": 10
+    },
+    {
+      "item": "enhancedgeology:magnetite",
+      "count": 13
+    },
+    {
+      "item": "enhancedgeology:chrysotile",
+      "count": 3
+    }
+  ],
+  "experience": 0.1
+}

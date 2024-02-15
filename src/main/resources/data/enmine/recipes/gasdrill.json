@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " t ",
+    "tct",
+    "tpt"
+  ],
+  "key": {
+    "t": {
+      "item": "chemlib:tungsten_plate"
+    },
+    "c": {
+      "item": "ic2:circuit"
+    },
+    "p": {
+      "item": "minecraft:piston"
+    }
+  },
+  "result": {
+    "item": "enhancedgeology:gasdrill"
+  }
+}
