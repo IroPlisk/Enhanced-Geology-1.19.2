@@ -49,16 +49,16 @@ public class Conduttimetro extends ElectricToolItem {
         if (!level.isClientSide()) {
             if (ElectricItem.MANAGER.getCharge(stack) >= 250) {
                 player.sendSystemMessage(Component.literal(""));
-                player.sendSystemMessage(Component.literal("\247bColonna:       \2477" + x + ", " + y + ", " + z));
+                player.sendSystemMessage(Component.literal("\247bColonna:       \2477" + Math.floor(x) + ", " + Math.floor(y) + ", " + Math.floor(z)));
                 float reading = condOfArea(level, x, y, z);
                 if (reading > 0.3F) {
-                    player.sendSystemMessage(Component.literal(("\247bConduttività:  \247c" + reading + "  \247rmS/m")));
+                    player.sendSystemMessage(Component.literal(("\247bConduttività:  \247c" + Math.floor(reading) + "  \247rmS/m")));
                 } else if (reading == 0.3F) {
-                    player.sendSystemMessage(Component.literal(("\247bConduttività:  \247a" + reading + " \247rmS/m")));
+                    player.sendSystemMessage(Component.literal(("\247bConduttività:  \247a" + Math.floor(reading) + " \247rmS/m")));
                 } else if (reading <= 0.0F) {
                     player.sendSystemMessage(Component.literal(("\247bConduttività:  \247aOL \247rmS/m")));
                 } else {
-                    player.sendSystemMessage(Component.literal(("\247bConduttività:  \247e" + reading + " \247rmS/m")));
+                    player.sendSystemMessage(Component.literal(("\247bConduttività:  \247e" + Math.floor(reading) + " \247rmS/m")));
                 }
                 if (ElectricItem.MANAGER.getCharge(stack) < 250) {
                     player.sendSystemMessage(Component.literal(("\247cBatteria scarica")));

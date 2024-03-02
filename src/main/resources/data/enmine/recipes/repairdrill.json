@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "enhancedgeology:gasdrill"
+    },
+    {
+      "item": "enhancedgeology:gasoline"
+    }
+  ],
+  "result": {
+    "item": "enhancedgeology:gasdrill"
+  }
+}

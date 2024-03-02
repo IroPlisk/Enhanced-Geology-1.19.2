@@ -92,14 +92,14 @@ public class Gravimetro extends ElectricToolItem {
                 double y = playerPosition.y();
                 double z = playerPosition.z();
                 player.sendSystemMessage(Component.literal(""));
-                player.sendSystemMessage(Component.literal("\247bColonna: \2477" + x + ", " + y + ", " + z));
+                player.sendSystemMessage(Component.literal("\247bColonna: \2477" + Math.floor(x) + ", " + Math.floor(y) + ", " + Math.floor(z)));
                 double reading = gravityOfArea(level, x, y, z);
                 if (reading > 981000.0F) {
-                    player.sendSystemMessage(Component.literal("\247bGravità:  \247c" + reading + "  \247rmgal"));
+                    player.sendSystemMessage(Component.literal("\247bGravità:  \247c" + Math.floor(reading) + "  \247rmgal"));
                 } else if (reading == 981000.0F) {
-                    player.sendSystemMessage(Component.literal("\247bGravità:  \247a" + reading + " \247rmgal"));
+                    player.sendSystemMessage(Component.literal("\247bGravità:  \247a" + Math.floor(reading) + " \247rmgal"));
                 } else {
-                    player.sendSystemMessage(Component.literal("\247bGravità:  \247e" + reading + " \247rmgal"));
+                    player.sendSystemMessage(Component.literal("\247bGravità:  \247e" + Math.floor(reading) + " \247rmgal"));
                 }
                 if (ElectricItem.MANAGER.getCharge(stack) <250) {
                     player.sendSystemMessage(Component.literal("\247cBatteria scarica"));

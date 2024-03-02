@@ -27,12 +27,4 @@ public class TrapanoBenza extends PickaxeItem {
             return 10000f;
         }
     }
-
-    @Override
-    public boolean isValidRepairItem(ItemStack stack, ItemStack stack2) {
-        if (stack2.getItem() == BasicItems.GASOLINE.get()){
-            return true;
-        }
-        return false;
-    }
 }

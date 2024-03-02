@@ -54,9 +54,10 @@ public class Geiger extends ElectricToolItem {
         if (!level.isClientSide()) {
            if (ElectricItem.MANAGER.getCharge(stack) >= 250) {
                player.sendSystemMessage(Component.literal(""));
-               player.sendSystemMessage(Component.literal("\247bColonna:       \2477" + x + ", " + y + ", " + z));
-               float reading = radOfArea(level, x, y, z);
-               String readingFmt = new DecimalFormat("#.##").format(reading);
+               player.sendSystemMessage(Component.literal("\247bColonna:       \2477" + Math.floor(x) + ", " + Math.floor(y) + ", " + Math.floor(z)));
+               double reading = radOfArea(level, x, y, z);
+               double readingfloorato = Math.floor(reading);
+               String readingFmt = new DecimalFormat("#.##").format(readingfloorato);
                if (reading > 5.0F) {
                    player.sendSystemMessage(Component.literal("\247bRadioattività:  \247c" + readingFmt + "  \247ruSv/h"));
                } else {
