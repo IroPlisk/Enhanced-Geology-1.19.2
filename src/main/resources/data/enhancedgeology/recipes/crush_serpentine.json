@@ -1,0 +1,22 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "value": [
+      {
+        "item": "enhancedgeology:serpentine"
+      }
+    ],
+    "count": 64
+  },
+  "result": [
+    {
+      "item": "enhancedgeology:chrysotile",
+      "count": 12
+    },
+    {
+      "item": "chemlib:magnesium",
+      "count": 51
+    }
+  ],
+  "experience": 1
+}

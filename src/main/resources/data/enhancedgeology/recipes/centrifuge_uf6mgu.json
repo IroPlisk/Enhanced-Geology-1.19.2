@@ -1,0 +1,13 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "enhancedgeology:heuf6"
+  },
+  "result": [
+    {
+      "item": "enhancedgeology:mguf6",
+      "count": 1
+    }
+  ],
+  "energy": 7900
+}

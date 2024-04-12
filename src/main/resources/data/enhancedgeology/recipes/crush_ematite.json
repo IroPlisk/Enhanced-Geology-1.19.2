@@ -1,0 +1,22 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "value": [
+      {
+        "item": "enhancedgeology:ematite"
+      }
+    ],
+    "count": 64
+  },
+  "result": [
+    {
+      "item": "ic2:dust_iron",
+      "count": 30
+    },
+    {
+      "item": "chemlib:carbon_dust",
+      "count": 34
+    }
+  ],
+  "experience": 0.1
+}

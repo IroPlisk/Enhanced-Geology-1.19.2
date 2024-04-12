@@ -1,0 +1,20 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "enhancedgeology:zircalloydust",
+      "count": 63
+    },
+    {
+      "tag": "forge:dusts/tin",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "enhancedgeology:zircalloyingot",
+      "count": 64
+    }
+  ],
+  "energy": 4800
+}

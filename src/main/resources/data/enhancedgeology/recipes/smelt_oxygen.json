@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "enhancedgeology:liquidoxygencell"
+  },
+  "result": {
+    "item": "enhancedgeology:oxygencell",
+    "count": 4
+  }
+}

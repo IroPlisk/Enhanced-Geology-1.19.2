@@ -1,0 +1,15 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "item": "ic2:cell_air"
+    }
+  ],
+  "result": [
+    {
+      "item": "enhancedgeology:liquidoxygencell",
+      "count": 1
+    }
+  ],
+  "energy": 15000
+}

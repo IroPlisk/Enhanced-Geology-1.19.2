@@ -1,0 +1,24 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "enhancedgeology:heucell4",
+      "count": 1
+    },
+    {
+      "item": "ic2:cell_water",
+      "count": 4
+    }
+  ],
+  "result": [
+    {
+      "item": "enhancedgeology:heuingot",
+      "count": 4
+    },
+    {
+      "item": "chemlib:hydrogen",
+      "count": 4
+    }
+  ],
+  "energy": 9800
+}

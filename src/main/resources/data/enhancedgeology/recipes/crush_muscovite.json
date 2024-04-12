@@ -1,0 +1,26 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "value": [
+      {
+        "item": "enhancedgeology:muscovite"
+      }
+    ],
+    "count": 64
+  },
+  "result": [
+    {
+      "item": "ic2:dust_aluminium",
+      "count": 22
+    },
+    {
+      "item": "chemlib:silicon_dioxide",
+      "count": 21
+    },
+    {
+      "item": "chemlib:potassium",
+      "count": 21
+    }
+  ],
+  "experience": 0.1
+}

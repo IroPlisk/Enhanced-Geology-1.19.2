@@ -1,0 +1,19 @@
+{
+  "type": "mekanism:combining",
+  "mainInput": {
+    "ingredient": {
+      "item": "ic2:fuel_can"
+    },
+    "amount": 1
+  },
+  "extraInput": {
+    "ingredient": {
+      "item": "ic2:cell_coal_fuel"
+    },
+    "amount": 8
+  },
+  "output": {
+    "item": "enhancedgeology:gasoline",
+    "count": 1
+  }
+}

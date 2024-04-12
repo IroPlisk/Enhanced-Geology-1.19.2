@@ -1,0 +1,24 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/aluminum",
+      "count": 64
+    },
+    {
+      "item": "enhancedgeology:alloymixture2014",
+      "count": 5
+    }
+  ],
+  "result": [
+    {
+      "item": "enhancedgeology:duralumin",
+      "count": 64
+    },
+    {
+      "item": "chemlib:carbon_dust",
+      "count": 5
+    }
+  ],
+  "energy": 12000
+}

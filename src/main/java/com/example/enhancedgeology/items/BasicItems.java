@@ -43,6 +43,8 @@ public class BasicItems {
             () -> new Item(new Item.Properties().tab(EnMineCreativeModeTab.EN_GEO_CREATIVE_MODE_TAB)));
     public static final RegistryObject<Item> UO = ITEMS.register("uo",
             () -> new Item(new Item.Properties().tab(EnMineCreativeModeTab.EN_GEO_CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> IRIDIUM_NUGGET = ITEMS.register("iridium_nugget",
+            () -> new Item(new Item.Properties().tab(EnMineCreativeModeTab.EN_GEO_CREATIVE_MODE_TAB)));
 
     // roba elettrica vvv
 

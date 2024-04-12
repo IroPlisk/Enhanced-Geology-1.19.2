@@ -1,0 +1,30 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "value": [
+      {
+        "item": "enhancedgeology:orneblende"
+      }
+    ],
+    "count": 64
+  },
+  "result": [
+    {
+      "item": "ic2:dust_iron",
+      "count": 16
+    },
+    {
+      "item": "chemlib:magnesium",
+      "count": 16
+    },
+    {
+      "item": "chemlib:calcium",
+      "count": 16
+    },
+    {
+      "item": "ic2:dust_aluminium",
+      "count": 16
+    }
+  ],
+  "experience": 0.1
+}

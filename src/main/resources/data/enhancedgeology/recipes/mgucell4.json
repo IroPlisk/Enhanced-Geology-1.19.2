@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " c ",
+    "ppp",
+    " c "
+  ],
+  "key": {
+    "c": {
+      "item": "enhancedgeology:mgucell2"
+    },
+    "p": {
+      "item": "enhancedgeology:zircalloyplate"
+    }
+  },
+  "result": {
+    "item": "enhancedgeology:mgucell4"
+  }
+}r

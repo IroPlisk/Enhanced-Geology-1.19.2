@@ -1,0 +1,19 @@
+{
+  "type": "mekanism:combining",
+  "mainInput": {
+    "ingredient": {
+      "item": "chemlib:methane"
+    },
+    "amount": 1
+  },
+  "extraInput": {
+    "ingredient": {
+      "item": "chemlib:methane"
+    },
+    "amount": 1
+  },
+  "output": {
+    "item": "enhancedgeology:acetylene",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "value": [
+      {
+        "item": "enhancedgeology:magnetite"
+      }
+    ],
+    "count": 64
+  },
+  "result": [
+    {
+      "item": "ic2:dust_iron",
+      "count": 46
+    },
+    {
+      "item": "chemlib:carbon_dust",
+      "count": 18
+    }
+  ],
+  "experience": 0.1
+}

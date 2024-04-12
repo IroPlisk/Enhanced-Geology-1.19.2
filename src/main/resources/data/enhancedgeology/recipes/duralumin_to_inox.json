@@ -1,0 +1,16 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "item": "enhancedgeology:duralumin",
+      "count": 64
+    }
+  ],
+  "result": [
+    {
+      "item": "ic2:ingot_refined_iron",
+      "count": 64
+    }
+  ],
+  "energy": 12000
+}

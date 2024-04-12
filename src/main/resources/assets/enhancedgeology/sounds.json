@@ -1,0 +1,18 @@
+{
+  "trapano_benza_start": {
+    "sounds": [
+      {
+        "name": "enhancedgeology:sfx/trapano_benza_start",
+        "stream": true
+      }
+    ]
+  },
+  "trapano_benza_scarico": {
+    "sounds": [
+      {
+        "name": "enhancedgeology:sfx/trapano_benza_scarico",
+        "stream": true
+      }
+    ]
+  }
+}

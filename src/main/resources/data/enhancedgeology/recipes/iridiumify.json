@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iii",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "enhancedgeology:iridium_nugget"
+    }
+  },
+  "result": {
+    "item": "ic2:ore_iridium"
+  }
+}

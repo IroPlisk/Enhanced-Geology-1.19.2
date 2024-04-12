@@ -1,0 +1,24 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "enhancedgeology:ironorescraps",
+      "count": 64
+    },
+    {
+      "tag": "forge:dusts/calcium_carbonate",
+      "count": 16
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 64
+    },
+    {
+      "item": "chemlib:carbon_dust",
+      "count": 2
+    }
+  ],
+  "energy": 4800
+}

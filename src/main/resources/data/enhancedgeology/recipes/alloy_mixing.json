@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/copper"
+    },
+    {
+      "tag": "forge:dusts/magnesium"
+    },
+    {
+      "tag": "forge:dusts/manganese"
+    },
+    {
+      "tag": "forge:dusts/iron"
+    },
+    {
+      "tag": "forge:dusts/calcium_carbonate"
+    }
+  ],
+  "result": {
+    "item": "enhancedgeology:alloymixture2014"
+  }
+}

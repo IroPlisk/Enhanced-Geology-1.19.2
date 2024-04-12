@@ -17,31 +17,31 @@ public class ModPlacedFeatures {
     public static final RegistryObject<PlacedFeature> PERIDOTITE_ORE_PLACED = PLACED_FEATURES.register("peridotite_ore_placed",
             () -> new PlacedFeature(ModConfiguredFeatures.PERIDOTITE_ORE.getHolder().get(),
                     commonOrePlacement(5, // VeinsPerChunk
-                            HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-10), VerticalAnchor.belowTop(30)))));
+                            HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(54), VerticalAnchor.aboveBottom(94)))));
     public static final RegistryObject<PlacedFeature> ARDESIA_ORE_PLACED = PLACED_FEATURES.register("ardesia_ore_placed",
             () -> new PlacedFeature(ModConfiguredFeatures.ARDESIA_ORE.getHolder().get(),
                     commonOrePlacement(2, // VeinsPerChunk
-                            HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(60), VerticalAnchor.belowTop(255)))));
+                            HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(124), VerticalAnchor.aboveBottom(319)))));
     public static final RegistryObject<PlacedFeature> DIASPRO_ORE_PLACED = PLACED_FEATURES.register("diaspro_ore_placed",
             () -> new PlacedFeature(ModConfiguredFeatures.DIASPRO_ORE.getHolder().get(),
                     commonOrePlacement(3, // VeinsPerChunk
-                            HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(50), VerticalAnchor.belowTop(90)))));
+                            HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(114), VerticalAnchor.aboveBottom(154)))));
     public static final RegistryObject<PlacedFeature> SERPENTINITE_ORE_PLACED = PLACED_FEATURES.register("serpentinite_ore_placed",
             () -> new PlacedFeature(ModConfiguredFeatures.SERPENTINITE_ORE.getHolder().get(),
                     commonOrePlacement(3, // VeinsPerChunk
-                            HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.belowTop(70)))));
+                            HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(64), VerticalAnchor.aboveBottom(134)))));
     public static final RegistryObject<PlacedFeature> GNEISS_ORE_PLACED = PLACED_FEATURES.register("gneiss_ore_placed",
             () -> new PlacedFeature(ModConfiguredFeatures.GNEISS_ORE.getHolder().get(),
                     commonOrePlacement(2, // VeinsPerChunk
-                            HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.belowTop(20)))));
+                            HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(84)))));
     public static final RegistryObject<PlacedFeature> KIMBERLITE_ORE_PLACED = PLACED_FEATURES.register("kimberlite_ore_placed",
             () -> new PlacedFeature(ModConfiguredFeatures.KIMBERLITE_ORE.getHolder().get(),
                     commonOrePlacement(1, // VeinsPerChunk
-                            HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.belowTop(0)))));
+                            HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(64)))));
     public static final RegistryObject<PlacedFeature> URANINITE_ORE_PLACED = PLACED_FEATURES.register("uraninite_ore_placed",
             () -> new PlacedFeature(ModConfiguredFeatures.URANINITE_ORE.getHolder().get(),
                     commonOrePlacement(15, // VeinsPerChunk
-                            HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.belowTop(0)))));
+                            HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(64)))));
 
 
     public static List<PlacementModifier> orePlacement(PlacementModifier p_195347_, PlacementModifier p_195348_) {

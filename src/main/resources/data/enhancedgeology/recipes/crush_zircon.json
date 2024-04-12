@@ -1,0 +1,22 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "value": [
+      {
+        "item": "enhancedgeology:zircon"
+      }
+    ],
+    "count": 3
+  },
+  "result": [
+    {
+      "item": "enhancedgeology:zircalloydust",
+      "count": 1
+    },
+    {
+      "item": "chemlib:silicon_dioxide",
+      "count": 2
+    }
+  ],
+  "experience": 0.1
+}

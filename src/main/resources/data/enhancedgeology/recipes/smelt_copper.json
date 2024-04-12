@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "enhancedgeology:coppersulfatedust"
+  },
+  "result": {
+    "item": "enhancedgeology:copper2oxidedust"
+  }
+}

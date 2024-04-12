@@ -1,0 +1,22 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "value": [
+      {
+        "item": "enhancedgeology:brucite"
+      }
+    ],
+    "count": 32
+  },
+  "result": [
+    {
+      "item": "enhancedgeology:iridium_nugget",
+      "count": 1
+    },
+    {
+      "item": "chemlib:magnesium",
+      "count": 63
+    }
+  ],
+  "experience": 0.1
+}

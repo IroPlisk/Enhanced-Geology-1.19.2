@@ -1,0 +1,22 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "value": [
+      {
+        "item": "enhancedgeology:fluorite"
+      }
+    ],
+    "count": 3
+  },
+  "result": [
+    {
+      "item": "enhancedgeology:fluorine",
+      "count": 2
+    },
+    {
+      "item": "chemlib:calcium",
+      "count": 2
+    }
+  ],
+  "experience": 1
+}

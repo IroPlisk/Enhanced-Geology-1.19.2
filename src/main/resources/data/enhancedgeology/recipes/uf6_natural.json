@@ -1,0 +1,19 @@
+{
+  "type": "mekanism:combining",
+  "mainInput": {
+    "ingredient": {
+      "item": "enhancedgeology:uo2"
+    },
+    "amount": 64
+  },
+  "extraInput": {
+    "ingredient": {
+      "item": "enhancedgeology:fluorine"
+    },
+    "amount": 1
+  },
+  "output": {
+    "item": "enhancedgeology:uf6",
+    "count": 64
+  }
+}

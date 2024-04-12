@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "enhancedgeology:ematite"
+    },
+    {
+      "item": "enhancedgeology:magnetite"
+    },
+    {
+      "tag": "forge:dusts/iron_disulfide"
+    }
+  ],
+  "result": {
+    "item": "enhancedgeology:ironorescraps",
+    "count": 3
+  }
+}

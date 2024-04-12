@@ -1,0 +1,26 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "value": [
+      {
+        "item": "enhancedgeology:feldspar"
+      }
+    ],
+    "count": 64
+  },
+  "result": [
+    {
+      "item": "ic2:dust_aluminium",
+      "count": 13
+    },
+    {
+      "item": "chemlib:silicon_dioxide",
+      "count": 38
+    },
+    {
+      "item": "chemlib:potassium",
+      "count": 13
+    }
+  ],
+  "experience": 0.2
+}

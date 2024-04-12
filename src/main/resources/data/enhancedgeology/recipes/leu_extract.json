@@ -1,0 +1,24 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "enhancedgeology:leucell",
+      "count": 1
+    },
+    {
+      "item": "chemlib:sulfuric_acid",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "enhancedgeology:leuingot",
+      "count": 1
+    },
+    {
+      "item": "enhancedgeology:coppersulfatedust",
+      "count": 2
+    }
+  ],
+  "energy": 5400
+}

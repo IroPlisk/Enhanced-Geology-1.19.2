@@ -1,0 +1,24 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "enhancedgeology:leuingot",
+      "count": 44
+    },
+    {
+      "item": "chemlib:plutonium",
+      "count": 20
+    }
+  ],
+  "result": [
+    {
+      "item": "enhancedgeology:moxingot",
+      "count": 64
+    },
+    {
+      "item": "chemlib:carbon_dust",
+      "count": 1
+    }
+  ],
+  "energy": 10000
+}

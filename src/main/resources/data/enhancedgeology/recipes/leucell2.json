@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cpc",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "c": {
+      "item": "enhancedgeology:leucell"
+    },
+    "p": {
+      "tag": "forge:plates/copper"
+    }
+  },
+  "result": {
+    "item": "enhancedgeology:leucell2"
+  }
+}
