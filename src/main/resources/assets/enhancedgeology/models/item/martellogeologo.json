@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "enhancedgeology:item/martellogeologo",
-		"particle": "martellogeologo"
+		"particle": "enhancedgeology:item/martellogeologo"
 	},
 	"elements": [
 		{
@@ -94,5 +94,18 @@
 				"down": {"uv": [1, 11, 0, 12], "texture": "#0"}
 			}
 		}
-	]
+	],
+	"display": {
+		"ground": {
+			"translation": [0, 4.25, 0]
+		},
+		"gui": {
+			"rotation": [20, -135, 0],
+			"translation": [0, 1.25, 0]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 0, 1]
+		}
+	}
 }

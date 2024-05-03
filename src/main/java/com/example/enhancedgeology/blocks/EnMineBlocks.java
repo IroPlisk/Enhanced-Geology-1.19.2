@@ -22,31 +22,31 @@ public class EnMineBlocks {
 
     public static final RegistryObject<Block> PERIODITE_BLOCK = registerBlock("peridotite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).
+                    .strength(1.5f).
                     requiresCorrectToolForDrops()), EnMineBlocksCreativeModeTab.EN_GEO_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> ARDESIA_BLOCK = registerBlock("ardesia_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).
+                    .strength(1.5f).
                     requiresCorrectToolForDrops()), EnMineBlocksCreativeModeTab.EN_GEO_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> DIASPRO_BLOCK = registerBlock("diaspro_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).
+                    .strength(1.5f).
                     requiresCorrectToolForDrops()), EnMineBlocksCreativeModeTab.EN_GEO_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> SERPENTINITE_BLOCK = registerBlock("serpentinite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).
+                    .strength(1.5f).
                     requiresCorrectToolForDrops()), EnMineBlocksCreativeModeTab.EN_GEO_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> GNEISS = registerBlock("gneiss_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).
+                    .strength(3f).
                     requiresCorrectToolForDrops()), EnMineBlocksCreativeModeTab.EN_GEO_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> KIMBERLITE = registerBlock("kimberlite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).
+                    .strength(1.5f).
                     requiresCorrectToolForDrops()), EnMineBlocksCreativeModeTab.EN_GEO_BLOCKS_CREATIVE_MODE_TAB);
     public static final RegistryObject<Block> URANITE = registerBlock("uranite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).
+                    .strength(1.5f).
                     requiresCorrectToolForDrops()), EnMineBlocksCreativeModeTab.EN_GEO_BLOCKS_CREATIVE_MODE_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {

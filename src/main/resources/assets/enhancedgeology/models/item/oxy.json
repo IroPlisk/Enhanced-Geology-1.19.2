@@ -3,7 +3,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "enhancedgeology:item/oxy",
-		"particle": "oxy"
+		"particle": "enhancedgeology:item/oxy"
 	},
 	"elements": [
 		{
@@ -241,5 +241,12 @@
 			}
 		}
 	],
-	"display": {}
+	"display": {
+		"ground": {
+			"translation": [0, 5.25, 0]
+		},
+		"gui": {
+			"rotation": [20, -135, 0]
+		}
+	}
 }

@@ -3,7 +3,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "enhancedgeology:item/gravimetro",
-		"particle": "gravimetro"
+		"particle": "enhancedgeology:item/gravimetro"
 	},
 	"elements": [
 		{
@@ -495,6 +495,12 @@
 		},
 		"firstperson_righthand": {
 			"rotation": [21, 180, -15]
+		},
+		"ground": {
+			"translation": [0, 4.5, 0]
+		},
+		"gui": {
+			"rotation": [20, -135, 0]
 		}
 	}
 }

@@ -3,7 +3,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "enhancedgeology:item/conduttimetro",
-		"particle": "conduttimetro"
+		"particle": "enhancedgeology:item/conduttimetro"
 	},
 	"elements": [
 		{
@@ -59,6 +59,12 @@
 		"thirdperson_righthand": {
 			"rotation": [90, 0, 0],
 			"translation": [0, 0, 2]
+		},
+		"ground": {
+			"translation": [0, 6.5, 0]
+		},
+		"gui": {
+			"rotation": [20, 45, 0]
 		}
 	}
 }

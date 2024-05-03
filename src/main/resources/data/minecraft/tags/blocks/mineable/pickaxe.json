@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "enhancedgeology:ardesia_block",
+    "enhancedgeology:diaspro_block",
+    "enhancedgeology:gneiss_block",
+    "enhancedgeology:kimberlite_block",
+    "enhancedgeology:peridotite_block",
+    "enhancedgeology:serpentinite_block",
+    "enhancedgeology:uranite_block"
+  ]
+}
