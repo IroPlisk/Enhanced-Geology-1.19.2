@@ -1,0 +1,22 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "value": [
+      {
+        "item": "mekanism:raw_uranium"
+      }
+    ],
+    "count": 4
+  },
+  "result": [
+    {
+      "item": "mekanism:dust_uranium",
+      "count": 4
+    },
+    {
+      "item": "enhancedgeology:zircon",
+      "count": 3
+    }
+  ],
+  "experience": 0.1
+}
