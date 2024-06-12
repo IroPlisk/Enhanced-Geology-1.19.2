@@ -20,7 +20,7 @@ plugins {
     id 'org.spongepowered.mixin' version '0.7.+'
 }
 
-version = '1.19.2-1.4'
+version = '1.19.2-1.4.1'
 group = 'com.IroPlisk.enhancedgeology' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'EnhancedGeology'
 
@@ -135,11 +135,11 @@ dependencies {
     // that the dep is a ForgeGradle 'patcher' dependency, and its patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
     minecraft 'net.minecraftforge:forge:1.19.2-43.3.0'
+    implementation fg.deobf("curse.maven:ic2-classic-242942:4879119")
     implementation fg.deobf("curse.maven:chemlib-340666:4770563")
     implementation fg.deobf("curse.maven:thermal-foundation-222880:4782926")
     implementation fg.deobf("curse.maven:cofh-core-69162:4801049")
     implementation fg.deobf("curse.maven:thermal-expansion-69163:4782929")
-    implementation fg.deobf("curse.maven:jei-238222:4712866")
     implementation fg.deobf("curse.maven:mekanism-268560:4644795")
 
     // Real mod deobf dependency examples - these get remapped to your current mappings
