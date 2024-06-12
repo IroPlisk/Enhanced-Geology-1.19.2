@@ -42,6 +42,10 @@ public class ModPlacedFeatures {
             () -> new PlacedFeature(ModConfiguredFeatures.URANINITE_ORE.getHolder().get(),
                     commonOrePlacement(15, // VeinsPerChunk
                             HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(64)))));
+    public static final RegistryObject<PlacedFeature> DEBRIS_ORE_PLACED = PLACED_FEATURES.register("debris_ore_placed",
+            () -> new PlacedFeature(ModConfiguredFeatures.OW_DEBRIS.getHolder().get(),
+                    commonOrePlacement(13, // VeinsPerChunk
+                            HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(64)))));
 
 
     public static List<PlacementModifier> orePlacement(PlacementModifier p_195347_, PlacementModifier p_195348_) {

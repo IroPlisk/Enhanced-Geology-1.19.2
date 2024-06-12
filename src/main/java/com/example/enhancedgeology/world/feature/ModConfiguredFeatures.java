@@ -5,6 +5,7 @@ import com.example.enhancedgeology.blocks.EnMineBlocks;
 import com.google.common.base.Suppliers;
 import net.minecraft.core.Registry;
 import net.minecraft.data.worldgen.features.OreFeatures;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
@@ -36,6 +37,8 @@ public class ModConfiguredFeatures {
             OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, EnMineBlocks.KIMBERLITE.get().defaultBlockState())));
     public static final Supplier<List<OreConfiguration.TargetBlockState>> OVERWORLD_URANINITE = Suppliers.memoize(() -> List.of(
             OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, EnMineBlocks.URANITE.get().defaultBlockState())));
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> OVERWORLD_DEBRIS = Suppliers.memoize(() -> List.of(
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, Blocks.ANCIENT_DEBRIS.defaultBlockState())));
 
 
 
@@ -53,6 +56,8 @@ public class ModConfiguredFeatures {
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_KIMBERLITE.get(),12)));
     public static final RegistryObject<ConfiguredFeature<?, ?>> URANINITE_ORE = CONFIGURED_FEATURES.register("uraninite_ore",
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_URANINITE.get(),3)));
+    public static final RegistryObject<ConfiguredFeature<?, ?>> OW_DEBRIS = CONFIGURED_FEATURES.register("debris_ore",
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_DEBRIS.get(),3)));
 
 
     public static void register(IEventBus eventBus){

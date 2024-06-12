@@ -36,6 +36,7 @@ public class Gravimetro extends ElectricToolItem {
     }
 
     public void Densita() {
+        mineralDensity.put(Blocks.ANCIENT_DEBRIS, 1.0F);
         mineralDensity.put(Blocks.GOLD_ORE, 0.6F);
         mineralDensity.put(Blocks.IRON_ORE, 0.2F);
         mineralDensity.put(Blocks.COAL_ORE, -0.2F);

@@ -1,14 +1,12 @@
 package com.example.enhancedgeology.items;
 
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
 
-public class MartelloVetro extends Item {
-    public MartelloVetro(CreativeModeTab tab) {
-        super(new Properties().tab(tab).durability(50).setNoRepair());
+public class MartelloVetro extends PickaxeItem {
+    public MartelloVetro(Tier material, int attackDamage, float attackSpeed, Properties properties) {
+        super(material, attackDamage, attackSpeed, properties);
     }
 
     @Override

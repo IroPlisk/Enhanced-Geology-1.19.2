@@ -63,9 +63,9 @@ public class BasicItems {
     public static final RegistryObject<Item> BATEIA = ITEMS.register("bateia",
             () -> new Bateia(EnMineToolsCreativeModeTab.EN_GEO_TOOLS_CREATIVE_MODE_TAB));
     public static final RegistryObject<Item> FRANGIVETRO = ITEMS.register("frangivetro",
-            () -> new MartelloVetro(EnMineToolsCreativeModeTab.EN_GEO_TOOLS_CREATIVE_MODE_TAB));
+            () -> new MartelloVetro(Tiers.WOOD, 2, -1f, new Item.Properties().tab(EnMineToolsCreativeModeTab.EN_GEO_TOOLS_CREATIVE_MODE_TAB)));
     public static final RegistryObject<Item> OXY = ITEMS.register("oxy",
-            () -> new OxyFuelTorch(EnMineToolsCreativeModeTab.EN_GEO_TOOLS_CREATIVE_MODE_TAB));
+            () -> new OxyFuelTorch(Tiers.WOOD, 7, -1.5f, new Item.Properties().tab(EnMineToolsCreativeModeTab.EN_GEO_TOOLS_CREATIVE_MODE_TAB)));
     public static final RegistryObject<Item> MARTELLOGEOLOGO = ITEMS.register("martellogeologo",
             () -> new MartelloGeo(Tiers.IRON, 1, -2.8f, new Item.Properties().tab(EnMineToolsCreativeModeTab.EN_GEO_TOOLS_CREATIVE_MODE_TAB)));
     public static final RegistryObject<Item> TOOLGASDRILL = ITEMS.register("gasdrill",
